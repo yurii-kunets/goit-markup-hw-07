@@ -2,33 +2,20 @@
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
+  & .container {
+    display: flex;
+    align-items: center;
+  }
 }
 
-.header-nav {
+.navigation {
   display: flex;
   align-items: center;
 }
 
-.header-list {
+.navigation__list {
   display: flex;
   column-gap: 50px;
-}
-
-.header-link.current::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: #2196f3;
-  position: absolute;
-  bottom: -32px;
-  left: 0;
-  border-radius: 2px;
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
 }
 
 .header-connect {
@@ -41,7 +28,7 @@
   align-items: center;
 }
 
-.header-logo {
+.logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -52,7 +39,7 @@
   margin-right: 93px;
 }
 
-.header-link {
+.navigation__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -62,21 +49,21 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: #2196f3;
-}
-
-.header-email:hover,
-.header-email:focus {
-  color: #2196f3;
-}
-
-.header-tel:hover,
-.header-tel:focus {
-  color: #2196f3;
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+  &.current::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #2196f3;
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+    border-radius: 2px;
+  }
 }
 
 .header-email {
@@ -90,6 +77,10 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
 
 .contacts-icon-envelope {
@@ -114,4 +105,8 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }

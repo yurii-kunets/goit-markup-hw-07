@@ -61,6 +61,10 @@
 .webstudio-team-icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .webstudio-soc-link:hover &,
+  .webstudio-soc-link:focus & {
+    fill: #ffffff;
+  }
 }
 
 .webstudio-soc-link {
@@ -75,14 +79,8 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.webstudio-soc-link:hover,
-.webstudio-soc-link:focus {
-  background-color: #0f99fe;
-}
-
-.webstudio-soc-link:hover .webstudio-team-icon,
-.webstudio-soc-link:focus .webstudio-team-icon {
-  fill: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: #0f99fe;
+  }
 }
