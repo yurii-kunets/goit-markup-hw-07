@@ -1,4 +1,4 @@
-.activities-main {
+.activities__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -8,16 +8,16 @@
   margin-bottom: 50px;
 }
 
-.activities-list {
+.activities__list {
   display: flex;
   column-gap: 30px;
 }
 
-.activities-item {
+.activities__item {
   position: relative;
 }
 
-.activities-cover-text {
+.activities__cover-text {
   position: absolute;
   top: 100%;
   left: 100%;

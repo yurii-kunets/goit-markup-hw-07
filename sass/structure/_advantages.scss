@@ -2,12 +2,12 @@
   padding-bottom: 0;
 }
 
-.advantages-list {
+.advantages__list {
   display: flex;
   column-gap: 30px;
 }
 
-.advantages-link {
+.advantages__link {
   width: 270px;
   height: 120px;
   border-radius: 6px;
@@ -18,7 +18,7 @@
   margin-bottom: 30px;
 }
 
-.advantages-title {
+.advantages__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -28,7 +28,7 @@
   margin-bottom: 10px;
 }
 
-.advantages-descr {
+.advantages__descr {
   color: #757575;
   font-weight: 400;
   font-size: 14px;

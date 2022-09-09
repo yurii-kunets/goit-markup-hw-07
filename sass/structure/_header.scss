@@ -18,11 +18,11 @@
   column-gap: 50px;
 }
 
-.header-connect {
+.connect {
   margin-left: auto;
 }
 
-.header-contacts {
+.connect__contacts {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +66,7 @@
   }
 }
 
-.header-email {
+.connect__email {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -83,18 +83,18 @@
   }
 }
 
-.contacts-icon-envelope {
+.connect__envelope {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.contacts-icon-smartphone {
+.connect__smartphone {
   margin-left: 50px;
   margin-right: 10px;
   fill: currentColor;
 }
 
-.header-tel {
+.connect__tel {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
